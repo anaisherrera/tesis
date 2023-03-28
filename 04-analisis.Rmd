@@ -269,7 +269,7 @@ La tabla nos presenta cuatro parámetros especialmente relevantes: el intercepto
 
 
 ```{r, echo=FALSE, results='asis', fig.align = 'center'}
-knitr::kable(data.frame(image='![](input/images/INTERACCION1.png){height=80%}'),    # generar tabla
+knitr::kable(data.frame(image='![](input/images/INTERACCION1.png){height=70%}'),    # generar tabla
              caption="Efectos de interacción entre el sexo y las relaciones con los profesores, en las actitudes hacia la igualdad de derechos para mujeres",
              col.names = "",
              row.names = F,
@@ -305,7 +305,7 @@ Tanto cuando se incorpora la pendiente aleatoria como cuando se precisa la inter
 El efecto de la interacción nos indica que cuando existen buenas relaciones con los profesores (o más precisamente, cuando las relaciones con los profesores aumentan en una desviación estándar) el efecto del conocimiento sobre las actitudes hacia la igualdad de derechos para mujeres (que es 0.2226) disminuye en -0.1662 unidades. En otras palabras, si un estudiante posee un bajo conocimiento cívico, esto afectará menos sus actitudes hacia la igualdad de derechos entre hombres y mujeres si asiste a un aula donde hay una buena relación con los profesores. 
 
 ```{r, echo=FALSE, results='asis', fig.align = 'center'}
-knitr::kable(data.frame(image='![](input/images/INTERACCION2.png){height=80%}'),    # generar tabla
+knitr::kable(data.frame(image='![](input/images/INTERACCION2.png){height=70%}'),    # generar tabla
              caption="Efectos de interacción entre el nivel de conocimiento cívico y las relaciones con los profesores, en las actitudes hacia la igualdad de derechos para mujeres",
              col.names = "",
              row.names = F,
@@ -331,7 +331,7 @@ Como se puede observar el efecto de la interacción no es significativo, lo cual
 Por ello no se indagará más en este punto. No obstante, cabe destacar que, si existe variabilidad en la pendiente de la relación entre distintos contextos, por lo que cabe preguntarse qué características o prácticas de la escuela podrían explicar esta variación.
 
 ```{r, echo=FALSE, results='asis', fig.align = 'center'}
-knitr::kable(data.frame(image='![](input/images/INTERACCION3.png){height=80%}'),    # generar tabla
+knitr::kable(data.frame(image='![](input/images/INTERACCION3.png){height=70%}'),    # generar tabla
              caption="Efectos de interacción entre el sexo y las relaciones con los profesores, en las actitudes hacia la igualdad de derechos para grupos étnicos",
              col.names = "",
              row.names = F,
@@ -350,7 +350,7 @@ El efecto de moderación es significativo, y por cada desviación estándar que 
 La incorporación del parámetro de interacción mejora en un 0.67% el R2 general del modelo. Asimismo, cabe destacar que incorporar estas variables mejora un 6% el R2 nivel 2 y un 1.26% el R2 nivel 1. 
 
 ```{r, echo=FALSE, results='asis', fig.align = 'center'}
-knitr::kable(data.frame(image='![](input/images/INTERACCION4.png){height=80%}'),    # generar tabla
+knitr::kable(data.frame(image='![](input/images/INTERACCION4.png){height=70%}'),    # generar tabla
              caption="Efectos de interacción entre el conocimiento cívico y las relaciones con los profesores, en las actitudes hacia la igualdad de derechos para grupos étnicos",
              col.names = "",
              row.names = F,
