@@ -1,0 +1,176 @@
+# Estrategia Metodológica
+
+## Datos
+
+Esta investigación utiliza los datos del último estudio Internacional sobre Educación Cívica y Ciudadana (ICCS) de la IEA, el cual consiste en una evaluación estandarizada que permite evaluar cómo las escuelas preparan a sus estudiantes para asumir su rol de ciudadanos, proporcionando evidencia sobre la orientación moral a los Derechos Humanos y la justicia social, el conocimiento cívico y las percepciones sobre el clima escolar de estudiantes de distintas partes del mundo (Schulz, Ainley, Cox et al. 2016). La encuesta fue realizada a una muestra representativa de los estudiantes matriculados en octavo grado en 24 países, siempre que la edad promedio de ese nivel fuera 13,5 años o más (de lo contrario, se define el noveno grado como la población objetivo) (Schulz, Carstens, Losito, & Fraillon, 2018). En Chile este estudio incorporó a 5.081 estudiantes de 8°básico de 178 escuelas, entre los cuales el 49,3% se identificó con el sexo femenino y el 50,7% con el sexo masculino. La muestra incluye establecimientos de todas las regiones, dependencias administrativas y zonas geográficas del país (Agencia de Calidad de la Educación, s.f.). Cabe destacar que se muestreo sólo una clase por escuela, por lo que los datos corresponden a estudiantes que no sólo pertenecen a la misma escuela, sino que comparten en el aula de clases (Schulz, Carstens, Losito, & Fraillon, 2018). En la presente investigación se trabaja con los datos de 3.920 estudiantes de 166 escuelas, correspondientes a los casos con información completa para las variables de interés en el análisis (es decir, se han excluido todos los casos que tienen un dato perdido en alguna de las variables de interés).
+
+## Variables
+
+En esta sección se presentan las variables a utilizar y sus respectivos códigos en la base de datos ICCS.
+
+### *Indicadores de las actitudes hacia la igualdad de derechos*
+
+En la encuesta se realiza una serie de preguntas referidas a las actitudes hacia la igualdad de derechos a tres grupos desfavorecidos (mujeres, grupos étnicos o raciales y homosexuales). Este set de preguntas se establece como el objeto central de este estudio. Se estimó un Análisis Factorial Confirmatorio (AFC) para evaluar la bondad de ajuste del modelo de medida de la escala (detalles en Anexo 1), logrando un ajuste adecuado según los criterios propuestos por Brown (2015) al dividirla en las tres dimensiones que se han enunciado: (1) Actitudes hacia la igualdad de derechos entre hombres y mujeres, (2) Actitudes hacia la igualdad de derechos para grupos étnicos o raciales y (3) Actitudes hacia la igualdad de derechos para homosexuales. En consecuencia, se utilizaron tres variables para medir las actitudes de los jóvenes hacia la igualdad de derechos, las cuales fueron generadas utilizando las puntuaciones factoriales estimadas a partir de este AFC. 
+
+Como se enuncio en los antecedentes teóricos y empíricos, en términos generales la medición de las actitudes hacia la igualdad de derechos sigue la propuesta de Miranda y Castillo (2018). Más precisamente, se utiliza el modelo de medida propuesto para las actitudes hacia la igualdad de derechos entre hombres y mujeres y hacia la igualdad de derechos para grupos étnicos. Por lo tanto, sólo se incorporan en el análisis los indicadores que refieren específicamente a la igualdad de derechos, pese a que las escalas originales incorporan otros indicadores. Como en dicho artículo no se incorpora un análisis de la escala de actitudes hacia la igualdad de derechos para homosexuales (debido a que es una escala que no estaba en el estudio ICCS 2009), se ha seguido el mismo criterio utilizado por los autores para definir si excluir o no alguno de los indicadores. En consecuencia, se ha decidido no excluir ninguno de los indicadores de dicha escala debido a que al evaluarlos se ha concluido que todos refieren específicamente a la igualdad de derechos y no a otros constructos.
+
+Más específicamente, las actitudes han sido medidas en función del grado de acuerdo con diferentes afirmaciones en una escala de 1 a 4, donde: 1. Muy de acuerdo, 2. De acuerdo, 3. En desacuerdo, 4. Muy en desacuerdo. Para facilitar el análisis, las categorías de respuesta han sido recodificadas de modo que 1 representa "Muy en desacuerdo", 2 "En desacuerdo", 3 "De acuerdo" y 4 "Muy de acuerdo". Los indicadores de cada escala y sus códigos se presentan a continuación:
+
+**Actitudes hacia la igualdad de derechos entre hombres y mujeres**
+
+-   Existen diferentes puntos de vista sobre los roles de mujeres y hombres en la sociedad. ¿Cuán de acuerdo o en desacuerdo estás tú con las siguientes declaraciones?
+
+    -   Los hombres y las mujeres deberían tener las mismas oportunidades de participar en el gobierno. (IS3G24A)
+    -   Los hombres y las mujeres deberían tener los mismos derechos en todos los aspectos. (IS3G24B)
+    -   Los hombres y las mujeres deberían recibir el mismo pago cuando están haciendo los mismos los trabajos. (IS3G24E)
+
+**Actitudes hacia la igualdad de derechos para grupos étnicos**
+
+-   Existen diferentes puntos de vista sobre los derechos y responsabilidades de los diferentes en la sociedad. ¿Cuán de acuerdo o en desacuerdo estás tú con las siguientes declaraciones?
+
+    -   En Chile todos los grupos étnicos y raciales deberían tener la misma oportunidad de acceder a una buena educación. (IS3G25A)
+    -   En Chile todos los grupos étnicos y raciales deberían tener la misma oportunidad de conseguir buenos trabajos. (IS3G25B)
+    -   Las escuelas deberían enseñar a los estudiantes a respetar a los miembros de todos los grupos étnicos y raciales. (IS3G25C)
+    -   Los miembros de todos los grupos étnicos y raciales deberían tener los mismos derechos y responsabilidades. (IS3G25E)
+
+**Actitudes hacia la igualdad de derechos para homosexuales**
+
+-   ¿En qué medida estás de acuerdo o en desacuerdo con las siguientes afirmaciones respecto a la homosexualidad?
+
+    -   Las personas del mismo sexo deberían tener derecho a casarse entre sí. (LS3G08A)
+    -   Dos personas del mismo sexo deberían tener el derecho de adoptar hijos. (LS3G08B)
+    -   Los homosexuales deberían tener los mismos derechos que los demás ciudadanos. (LS3G08C)
+    -   Todos los colegios deberían aceptar a homosexuales. (LS3G08D)
+    -   Los homosexuales deberían tener el derecho de postularse para cualquier cargo político o público. (LS3G08E)
+
+### Indicadores de las variables independientes
+
+#### Nivel estudiante
+
+**Nivel de conocimiento cívico (PV1CIV)**
+
+-   La variable corresponde al puntaje asignado al nivel de conocimiento cívico del estudiante, como resultado de un procedimiento basado en la teoría de respuesta al ítem para estimar los valores plausibles de conocimiento cívico del estudiante en base a su respuesta a 87 preguntas. Los valores de esta variable varían entre el 0 y el 800, donde un puntaje mayor indica un mayor nivel de conocimiento cívico.
+
+**Sexo (S_Gender)**
+
+-   Esta variable distingue entre hombre (0) y mujer (1).
+
+**Antecedentes migratorios (IS3G04A)**
+
+-   Al estudiante se le pregunta en qué país nació (IS3G04A) y en qué países nacieron sus padres (país en qué nació la madre = IS3G04B; país en qué nació el padre = IS3G04C). Haber nacido en Chile fue codificado como 1, y haber nacido en cualquier otro país fue codificado como 0.
+
+**Pertenencia a un grupo étnico (IS3G02BN)**
+
+-  Al estudiante se le solicita que escriba las tres palabras que mejor lo describen. Si entre estas palabras el estudiante escribe un pueblo nativo chileno, su respuesta es codificada como "15202".
+
+**Recursos socioeconómicos de la familia**
+
+En la encuesta existen tres variables referidas a los recursos socioeconómicos de la familia del estudiante. Como se mencionó anteriormente, se evaluará el efecto de cada variable por separado. Las preguntas y sus categorías de respuesta se presentan a continuación:
+
+-   ***El nivel educativo alcanzado más alto entre los dos padres (S_HISCED).*** Para construir esta variable al estudiante se le presentan dos preguntas: 1) ¿Cuál es el nivel más alto de educación completado por su madre o tutora?, 2) ¿Cuál es el nivel más alto de educación completado por su padre o tutor? Ambas preguntas tienen las mismas opciones de respuesta: 0) No completo la enseñanza básica, 1) Enseñanza básica, 2)  Enseñanza media, 3) Una carrera profesional o técnica, 4) Una carrera universitaria o estudios de posgrado (magister o doctorado). Se compararon las respuestas de los estudiantes a estas dos preguntas y se construyó una nueva variable (S_HISCED), cuyo valor corresponde al nivel educativo más alto completado por uno de los dos padres (o tutores).
+
+-   ***La ocupación de mayor estatus entre los dos padres (S_HISEI).*** Para construir esta variable se le presentan cuatro preguntas abiertas al estudiante: 1) ¿Cuál es el trabajo principal de su madre o tutora? (por ejemplo, maestro de escuela secundaria, ayudante de cocina, gerente de ventas), 2) ¿Qué hace tu madre o tutora en su trabajo principal? (por ejemplo, enseña a los estudiantes de secundaria, ayuda al cocinero a preparar las comidas en un restaurante, gestiona un equipo de ventas), 3) ¿Cuál es el trabajo principal de su padre o tutor? (por ejemplo, maestro de escuela secundaria, ayudante de cocina, gerente de ventas), 4) ¿Qué hace tu padre o tutor masculino en su trabajo principal? (por ejemplo, enseña a los estudiantes de secundaria, ayuda al cocinero a preparar las comidas en un restaurante, gestiona un equipo de ventas). El valor asignado a las respuestas de estas preguntas se determina en función de las puntuaciones en el esquema de clasificación ocupacional ISCO-08 y se recodifican a puntuaciones SEI (índice socioeconómico de Duncan). Después de esta recodificación, se compara el puntaje del estatus ocupacional de la madre (o tutora) con el puntaje del estatus ocupacional del padre (o tutor) para crear una nueva variable, cuyo valor corresponde al puntaje del estatus ocupacional más alto entre los dos padres (o tutores). Esta variable será la que se incorporará en el análisis (S_HISEI).
+
+-   ***La cantidad de libros en el hogar (IS3G11).*** Al estudiante se le pregunta "¿Aproximadamente cuántos libros hay en tu casa? No cuente revistas, periódicos, historietas, libros electrónicos o sus libros escolares" y se le presentan 5 categorías de respuesta: 1) Ninguno o muy pocos (0-10 libros), 2) Suficiente para llenar un estante (11-25 libros), 3) Suficiente para llenar dos estantes (26-100 libros), 4) Suficiente para llenar dos estanterías (101-200 libros) y 5) Suficiente para llenar tres o más estanterías (más de 200 libros).
+
+#### Nivel escuela
+
+**Composición del curso en términos de género**
+
+A partir de la pregunta por el sexo de cada estudiante, se creó una variable que representa la proporción de mujeres en el curso. En esta variable el valor 0 indica que en la escuela no estudia ninguna niña, mientras que el valor 1 indica que en la escuela sólo estudian niñas.
+
+**Composición del curso en términos de antecedentes migratorios**
+
+A partir de las preguntas por los antecedentes migratorios de cada estudiante, se creó una variable que representa la proporción de estudiantes con antecedentes migratorios en el curso. En esta variable el valor 0 indica que en la escuela no estudia nadie con antecedentes migratorios, mientras que el valor 1 indica que en la escuela sólo estudian personas con antecedentes migratorios.
+
+**Composición del curso en términos de la proporción de estudiantes pertenecientes a un grupo étnico**
+
+A partir de la pregunta por la pertenencia a un grupo étnico, se creó una variable que representa la proporción de estudiantes pertenecientes a un grupo étnico en el curso. En esta variable el valor 0 indica que en la escuela no estudia nadie perteneciente a un grupo étnico, mientras que el valor 1 indica que en la escuela sólo estudian personas pertenecientes a grupos étnicos.
+
+**Apertura a la discusión en el aula**
+
+Se ha decidido promediar por escuela las respuestas de los estudiantes a cada uno de los indicadores de la escala con el objetivo de obtener una medida que represente de mejor manera la apertura a la discusión en el aula, debido a que las percepciones de cada uno de los estudiantes pueden estar influidas por otros factores (como el compromiso político del joven) (Campbell, 2008). De modo que todos los estudiantes pertenecientes a una misma aula recibirán la misma puntuación en cada uno de los indicadores. 
+
+Al ser una variable latente se siguió el mismo procedimiento que con las variables dependientes. En otras palabras, se estimó un AFC para evaluar la bondad de ajuste del modelo de medida de la escala  (detalles en Anexo 1), logrando un ajuste adecuado según los criterios propuestos por Brown (2015) al analizarlo como un constructo unidimensional. En función de estos resultados, se utilizó una variable para medir las percepciones de los estudiantes sobre la apertura a la discusión en el aula, siendo esta generada a partir de las puntuaciones factoriales que se pueden estimar en base al modelo de AFC estimado.
+
+En relación con los indicadores de la escala, cabe destacar que al estudiante se le pregunta la frecuencia en qué ocurren determinadas situaciones durante las clases, pidiéndole que escoja entre los siguientes grados de frecuencia: 1) Nunca, 2) Raramente, 3) A veces, 4) A menudo. A continuación se expone la pregunta general y los distintos indicadores, con sus respectivos códigos.
+
+-   Cuando se discuten temas políticos o sociales durante las clases regulares, ¿con qué frecuencia suceden las siguientes cosas?
+
+    -   Los maestros alientan a los estudiantes a tomar sus propias decisiones. (IS3G17A)
+    -   Los maestros alientan a los estudiantes a expresar sus opiniones. (IS3G17B)
+    -   Los estudiantes presentan eventos políticos actuales para su discusión en clase. (IS3G17C)
+    -   Los estudiantes expresan opiniones en clase incluso cuando sus opiniones son diferentes de la mayoría de los otros estudiantes. (IS3G17D)
+    -   Los maestros alientan a los estudiantes a discutir los problemas con personas que tienen opiniones diferentes. (IS3G17E)
+    -   Los maestros presentan varios lados de los problemas cuando los explican en clase. (IS3G17F)
+
+**Clima escolar**
+
+En consideración de los argumentos expuestos en la justificación de cómo se medirá la variable apertura a la discusión en el aula, se ha decidido medir el clima escolar siguiendo la misma lógica. En otras palabras, debido a que la percepción del clima escolar de cada estudiante puede estar influida por características individuales y, por ende, puede no representar a cabalidad cómo es el clima escolar de ese colegio, se ha decidido estimar promedios por escuela para las variables de clima escolar. 
+
+Respecto a las dimensiones y los indicadores del clima escolar, cabe mencionar que en el cuestionario se realizan dos series de preguntas sobre el clima escolar, una referida a la percepción del estudiante acerca de las relaciones interpersonales en la escuela (tanto entre los profesores y los estudiantes, como entre los estudiantes) y otra enfocada en la vivencia de situaciones de violencia física, emocional y/o verbal en la escuela. La propuesta de medición del clima escolar que se realiza en este estudio propone diferenciar entre tres ámbitos del clima escolar: las relaciones interpersonales entre estudiantes y profesores, las relaciones interpersonales entre estudiantes y las situaciones de violencia física, emocional o verbal. 
+
+Al tratarse de variables latentes se siguió el mismo procedimiento que con la apertura a la discusión en el aula y con las variables dependientes. Se estimó un AFC para evaluar la bondad de ajuste del modelo de medida del constructo (detalles en Anexo 1), teniendo un ajuste adecuado según los criterios propuestos por Brown (2015) al estimar el modelo con las tres dimensiones que se han mencionado. En consecuencia, se utilizaron tres variables para medir estos distintos aspectos del clima escolar, utilizando las puntuaciones factoriales estimadas a partir de este AFC.
+
+A continuación se presentan los indicadores de estas tres dimensiones:
+
+***Relaciones interpersonales en la escuela***
+
+Al estudiante se le pregunta su grado de acuerdo con diversas frases relacionadas con las interacciones tanto entre los profesores y los estudiantes, como entre estudiantes. Se le ofrecen cuatro alternativas de respuesta: 1) Muy de acuerdo, 2) De acuerdo, 3) En desacuerdo, 4) Totalmente en desacuerdo. Con el objetivo de facilitar el análisis, estas categorías de respuesta serán recodificadas, de modo que 1 represente "Totalmente en desacuerdo", 2 "En desacuerdo, 3 "De acuerdo", 4 "Muy de acuerdo". De este modo, un valor mayor representa una percepción más positiva sobre cómo se dan las relaciones interpersonales, tanto entre los profesores y los estudiantes, como entre estudiantes.
+
+A continuación se presenta la pregunta general junto con los indicadores, precisándose entre paréntesis a qué dimensión corresponde cada uno. 
+
+-   ¿Cuán de acuerdo o en desacuerdo estás con las siguientes declaraciones sobre los maestros y estudiantes de tu escuela?
+
+    -   La mayoría de mis maestros me tratan con justicia. *(Dimensión: relaciones interpersonales entre profesores y estudiantes)* (IS3G19A)
+    -   Los estudiantes se llevan bien con la mayoría de los maestros. *(Dimensión: relaciones interpersonales entre profesores y estudiantes)* (IS3G19B)
+    -   La mayoría de los maestros están interesados en el bienestar de los estudiantes. *(Dimensión: relaciones interpersonales entre profesores y estudiantes)* (IS3G19C)
+    -   La mayoría de mis maestros escuchan lo que tengo que decir. *(Dimensión: relaciones interpersonales entre profesores y estudiantes)* (IS3G19D)
+    -   Si necesito ayuda adicional, la recibo de mis maestros. *(Dimensión: relaciones interpersonales entre profesores y estudiantes)* (IS3G19E)
+    -   La mayoría de los maestros evitarían que los estudiantes sean intimidados. *(Dimensión: relaciones interpersonales entre profesores y estudiantes)* (IS3G19F)
+    -   La mayoría de los estudiantes de mi escuela se tratan con respeto. *(Dimensión: relaciones interpersonales entre estudiantes)* (IS3G19G)
+    -   La mayoría de los estudiantes de mi escuela se llevan bien entre ellos. *(Dimensión: relaciones interpersonales entre estudiantes)* (IS3G19H)
+    -   Mi escuela es un lugar donde los estudiantes se sienten seguros. *(Dimensión: relaciones interpersonales entre estudiantes)* (IS3G19I)
+
+***Situaciones de violencia física, emocional o verbal*** 
+
+Al estudiante se le pregunta con qué frecuencia han ocurrido en la escuela determinadas situaciones relacionadas a violencia escolar, pidiéndole que escoja entre los siguientes grados de frecuencia: 1) Nunca, 2) Menos de una vez al mes, 3) 1 a 5 veces al mes, 4) más de 5 veces al mes. A continuación se presenta la pregunta general y los indicadores.
+
+-   El Bullying se define como la actividad de comportamiento repetido y agresivo destinado a lastimar a alguien ya sea física, emocional, verbal o a través de la comunicación por internet. Durante el año escolar actual, ¿con qué frecuencia sucedió alguna de las siguientes situaciones en este colegio?
+
+    -   Un estudiante ha reportado al director de la escuela comportamientos agresivos o destructivos de otros estudiantes. (IC3G06A)
+    -   Un estudiante informó al director de la escuela que él / ella era por un profesor. (IC3G06B)
+    -   Un maestro informó al director de la escuela que un estudiante era por otros estudiantes. (IC3G06C)
+    -   Un maestro informó al director de la escuela que un alumno ayudó a otro estudiante al que le estaban haciendo bullying. (IC3G06D)
+    -   Un maestro informó al director de la escuela que él / ella estaba siendo por estudiantes. (IC3G06E)
+    -   Un padre informó al director de la escuela que su hijo / hija fue por otros estudiantes. (IC3G06F)
+
+## Métodos
+
+Para responder a los objetivos de esta investigación se ha decidido utilizar una estrategia de investigación cuantitativa, principalmente por dos motivos. Por un lado, debido a que actualmente existen datos secundarios disponibles que abordan toda la información que requiero analizar, en la población de interés (jóvenes en edad escolar). Estos datos se encuentran disponibles en el estudio ICCS 2016, una prueba estandarizada a nivel internacional que fue construida por un equipo de investigadores expertos en la temática de educación cívica. En este estudio se incorporan preguntas que permiten caracterizar al estudiante tanto a nivel individual, como a nivel del establecimiento educativo al que asiste el estudiante, abarcando todas las características que son de interés en la presente investigación. Es posible afirmar que los datos producidos en este estudio internacional son de buena calidad debido a que se utiliza un diseño muestral probabilístico en dos etapas[^metod-3] y se utiliza un cuestionario validado internacionalmente a partir de dos estudios anteriores (CIVED 1999 y ICCS 2009), por lo que la construcción de este tercer estudio se ha servido de la experiencia recopilada en las investigaciones anteriores y se han realizado las mejoras que se consideraron necesarias. Por otro lado, he considerado que la estrategia cuantitativa es la más adecuada para responder al objetivo general de este estudio debido a que a través de técnicas estadísticas como las regresiones es posible estimar efectos de interacción entre las variables. La estimación de efectos de interacción entre variables me permite evaluar con precisión si alguna/s de la/s característica/s de la escuela que se incorporan en el análisis posee/n la capacidad de moderar la relación existente entre las características adscritas del estudiante y sus actitudes hacia la igualdad de derechos.
+
+[^metod-3]: En la primera etapa se muestrean las escuelas con una probabilidad proporcional al tamaño de esta (definido en función del número de estudiantes) y en la segunda se seleccionó al azar un curso del grado objetivo.
+
+La propuesta de investigación, junto con el plan de análisis y las hipótesis a testear fueron pre registradas en la plataforma Open Science Framework del Centro de Ciencia Abierta (OSF, Center for Open Science). Puede acceder al documento en el siguiente [enlace](https://osf.io/e6nza/). El análisis estadístico de esta investigación fue realizado mediante el software libre R versión 4.1.1.
+
+Para testear las hipótesis el modelamiento será multinivel. Esta decisión se fundamenta en que, como las encuestas se realizan a más de un estudiante de cada escuela, no es posible suponer la existencia de independencia entre los casos[^metod-4], siendo lo más apropiado que el análisis se realice agrupando a los estudiantes por escuela.
+
+[^metod-4]: La independencia entre los casos es un supuesto de la regresión por mínimos cuadrados ordinarios.
+
+Originalmente se formularon dos alternativas de análisis estadístico, siendo el criterio para la elección entre estos la intención de privilegiar ante todo realizar un análisis que sea transparente y reproducible, utilizando para ello el software libre R.
+
+La primera alternativa consistía en estimar modelos de ecuaciones estructurales (SEM) multinivel debido a que la variable dependiente en este estudio no es una variable observada, sino que es una variable latente (es decir, fue medida a partir de varios indicadores) y esta técnica estadística está específicamente diseñada para el análisis de variables latentes. En esta línea, un estudio de simulación Monte Carlo (Rdz-Navarro & Asún, 2016) establece que, al trabajar con variables latentes, emplear esta forma de estimación estadística permite reducir el error de medida, en comparación a utilizar otras técnicas que buscan dar cuenta de una puntuación observada (ya sea a partir de un índice sumatorio, puntuaciones factoriales o estimaciones derivadas de la teoría de respuesta al ítem). Por lo tanto, la propuesta original era privilegiar el uso de esta alternativa en caso de que se desarrollara una actualización de la librería "lavaan" (la cual permite estimar modelos de ecuaciones estructurales multinivel en R) donde se incorporase la posibilidad de estimar SEM de dos niveles con pendientes aleatorias. Sin embargo, el creador de "lavaan" ha señalado que, pese a ser parte de sus planes futuros para el desarrollo de la librería, no le es posible estimar cuánto tiempo tardará en implementar dicha función y efectivamente a la fecha aún no se ha implementado la función en R.
+
+En consecuencia, se ha optado por otra alternativa. Se testearon las hipótesis a través de la estimación de modelos de regresiones multinivel utilizando la librería "lme4" (Bates, Mächler, Bolker & Walker, 2015). Se asume como limitación al tomar esta decisión metodológica que, probablemente , los resultados del estudio tengan más error de medida en comparación a si se utilizara una técnica especialmente diseñada para el análisis de variables latentes, pero esta decisión nos permite hacer un análisis que sigue los principios de reproducibilidad de la ciencia abierta. 
+
+Previo al proceso de testeo de las hipótesis, se evaluó la validez de constructo de las variables latentes utilizadas en los análisis a través de la estimación de modelos de Análisis Factorial Confirmatorio utilizando la librería “lavaan” (Rosseel, 2012). Todas las variables latentes presentaron un ajuste adecuado según los criterios de Brown (2015), por lo que se crearon nuevas variables a partir de puntuaciones factoriales. 
+
+Para testear las hipótesis se estimaron distintos modelos de regresión multinivel utilizando la librería “lme4” (Bates et al., 2015). Luego de estimar los modelos de regresión multinivel, se evaluaron las pendientes aleatorias y los efectos de interacción entre variables siguiendo las recomendaciones de Aguinis, Gottfredson y Culpepper (2013). En la presente investigación se testearon tres tipos de hipótesis:
+
+1. Hipótesis de efectos directos a nivel individual: Este tipo de hipótesis fue testeada estimando una serie de modelos que incorporan las respectivas variables independientes de nivel individual (controlando los efectos por las variables independientes de nivel agregado) y se evaluó su significancia estadística. 
+
+2. Hipótesis de efectos directos a nivel agregado: Este tipo de hipótesis fue testeada estimando una serie de modelos que incorporan las respectivas variables independientes de nivel escuela (controlando los efectos por las variables independientes de nivel individual) y se evaluó su significancia estadística. 
+
+3. Hipótesis de moderación entre niveles: se estimaron modelos de regresión multinivel con interacción cruzada entre niveles, siguiendo los pasos recomendados por Aguinis et al. (2013). Esto implicó, previo a la estimación de modelos con efectos de interacción, aleatorizar las pendientes para evaluar cómo variaba entre escuelas los efectos de las variables independientes de nivel individual. 
+
+Con el objetivo de asumir un compromiso con el desarrollo de una ciencia social abierta, además de subir el pre-registro de las hipótesis a la plataforma Open Science Framework (OSF) (Center for Open Science, s.f.), se creó un repositorio en la plataforma GitHub para subir los códigos de análisis estadístico con sus respectivos resultados, al cual se puede acceder en el siguiente [enlace](https://github.com/anaisherrera/analisis-tesis), y se ha puesto a libre disposición esta investigación, pudiendo acceder en este [enlace]().

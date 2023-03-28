@@ -1,0 +1,95 @@
+# Anexo 1 {-}
+
+Se han estimado análisis factorial confirmatorio (AFC) con el objetivo de evaluar si la dimensionalidad propuesta para medir las actitudes hacia la igualdad de derechos presenta un ajuste adecuado (la propuesta de medición se presentó con mayor detalle en el acápite “Variables”). Además, se ha estimado un AFC para cada una de las variables independientes que es una variable latente (el clima escolar y la apertura a la discusión en el aula). Al tratarse de variables ordinales, se han seguido las recomendaciones señaladas por Brown (2015) y se ha utilizado el estimador de Mínimos Cuadrados Ponderados (WLSMV). Asimismo, se ha decidido utilizar los criterios de evaluación de la bondad del ajuste del modelo propuestos por Brown (2015): (1) SRMR cerca de 0.08 o menos; (2) RMSEA cerca de 0.06 o menos[^10]; (3) CFI y TLI cerca de 0.95 o más. (p. 86) y (4) Chi-square Ratio igual o menor a 4. Para estimar los AFC multinivel se ha utilizado la librería “lavaan” (Rosseel, 2012).
+
+[^10]: El autor precisa que menos de 0.08 ya puede ser considerado como un ajuste adecuado, y que 0.05 o menos sugiere un buen ajuste del modelo. 
+
+**Variables dependientes**
+
+Para evaluar la bondad de ajuste del modelo de medición de las variables dependientes se ha estimado un Análisis Factorial Confirmatorio (AFC) siguiendo el modelo de medida señalado en el apartado "Variables". A continuación es posible visualizar el código de análisis:
+
+```{r eval=FALSE}
+model <- '
+f.genero =~ IS3G24A + IS3G24B + IS3G24E 
+
+f.etnico =~ IS3G25A + IS3G25B + IS3G25C + IS3G25E
+
+f.homosexual =~ LS3G08A + LS3G08B + LS3G08C + LS3G08D + LS3G08E
+
+f.genero ~~ f.etnico 
+f.genero ~~ f.homosexual
+f.etnico ~~ f.homosexual'
+
+fit1<- cfa(model, data=data1, estimator="WLSMV", ordered=T, cluster = 'idschool')
+summary(fit1, fit.measures=T, standardized=T)
+```
+
+En la siguiente tabla se pueden observar los resultados del ajuste del modelo de medida analizado. 
+
+|                       	| Standard        	| Robust           	|
+|-----------------------	|-----------------	|------------------	|
+| Chi-square Ratio      	| 17,231          	| 32,544           	|
+| CFI                   	| 0,998           	| 0,991            	|
+| TLI                   	| 0,998           	| 0,988            	|
+| RMSEA (P-value)       	| 0,057 (0,000)   	| 0,079 (0,000)    	|
+| SRMR                    | 0,040             | 0,040             |
+
+Siguiendo los criterios de bondad de ajuste propuestos por Brown (2015), es posible afirmar que según los indicadores relativos al Chi-square Ratio el modelo de medida no presentaría un ajuste adecuado. Sin embargo, esta prueba suele verse afectada cuando se trabaja con tamaños muestrales grandes, por lo que se deben analizar también los otros cuatro indicadores de ajuste. Los cuatro indicadores restantes se encuentran dentro de los criterios establecidos por Brown, generando evidencias de un ajuste adecuado. Por consiguiente, se ha decidido utilizar este modelo de medida para las variables dependientes y estimar las puntuaciones factoriales que se utilizarán como variables dependientes.
+
+**Variables independientes**
+
+Se estimaron dos modelos de Análisis Factorial Confirmatorio siguiendo los modelos de medida precisados en el apartado "Variables". 
+
+**_Clima escolar_**
+
+Para medir el clima escolar, se ha decidido seguir el modelo de medición propuesto en el estudio ICCS 2016, el cual consta de tres dimensiones diferentes que se encuentran relacionadas entre sí. A continuación se muestra el código de análisis y sus subsecuentes resultados:
+
+```{r eval=FALSE}
+model2 <- '
+f.buen_clima_prof =~ IS3G19A + IS3G19B + IS3G19C + IS3G19D + IS3G19E + IS3G19F 
+
+f.buen_clima_est =~ IS3G19G + IS3G19H + IS3G19I
+
+f.mal_clima =~ IC3G06A + IC3G06B + IC3G06C + IC3G06D + IC3G06E + IC3G06F
+
+f.buen_clima_prof ~~ f.buen_clima_est 
+f.buen_clima_prof ~~ f.mal_clima  
+f.buen_clima_est ~~ f.mal_clima '
+
+fit2<- cfa(model2, data=data_clima, estimator="WLSMV", ordered=T, cluster = 'idschool')
+summary(fit2, fit.measures=T, standardized=T)
+```
+
+|                       	| Standard        	| Robust           	|
+|-----------------------	|-----------------	|------------------	|
+| Chi-square Ratio      	| 16,256            | 17,577          	|
+| CFI                   	| 0,991           	| 0,979            	|
+| TLI                   	| 0,990           	| 0,975            	|
+| RMSEA (P-value)       	| 0,057 (0,000)   	| 0,060 (0,000)    	|
+| SRMR                    | 0,043             | 0,043             |
+
+Siguiendo los criterios de bondad de ajuste propuestos por Brown (2015), es posible afirmar que según los indicadores relativos al Chi-square Ratio el modelo de medida no presentaría un ajuste adecuado. Sin embargo, como se ha mencionado previamente esta prueba suele verse afectada al trabajar con tamaños muestrales grandes, por lo que se deben analizar también los otros cuatro indicadores de ajuste. Los cuatro indicadores restantes se encuentran dentro de los criterios establecidos por Brown, generando evidencias de un buen ajuste del modelo. Por consiguiente, se ha decidido utilizar este modelo de medida para las variables independientes correspondientes al clima escolar.
+
+\newpage
+
+**_Apertura a la discusión_**
+
+Para la medición de la apertura a la discusión en el aula se han utilizado los indicadores presentados en la batería de preguntas relativa a este constructo. A continuación se presenta el código de análisis y los resultados de este Análisis Factorial Confirmatorio:
+
+```{r eval=FALSE}
+model3 <- '
+f.ap_discusion =~ IS3G17A + IS3G17B + IS3G17C + IS3G17D + IS3G17E + IS3G17F'
+
+fit3<- cfa(model3, data=data_ap_disc, estimator="WLSMV", ordered=T, cluster = 'idschool')
+summary(fit3, fit.measures=T, standardized=T)
+```
+
+|                       	| Standard        	| Robust           	|
+|-----------------------	|-----------------	|------------------	|
+| Chi-square Ratio      	| 69,598            | 131,840          	|
+| CFI                   	| 0,990           	| 0,965            	|
+| TLI                   	| 0,983            	| 0,942            	|
+| RMSEA (P-value)       	| 0,116 (0,000)   	| 0,160 (0,000)    	|
+| SRMR                    | 0,055             | 0,055             |
+
+Siguiendo los criterios de bondad de ajuste propuestos por Brown (2015), es posible afirmar que según los indicadores relativos al Chi-square Ratio el modelo de medida no presentaría un ajuste adecuado. Sin embargo, como se ha mencionado esta prueba suele verse por tamaños muestrales grandes. De los cuatro indicadores restantes, tres se encuentran dentro de los parametros indicados como un ajuste adecuado. Por lo que se ha decidido utilizar este modelo de medida, pese a que presenta un ajuste medianamente adecuado al no cumplir con los criterios del Chi-square Ratio ni de RMSEA.
