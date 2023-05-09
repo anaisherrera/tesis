@@ -4,6 +4,8 @@ Se han estimado análisis factorial confirmatorio (AFC) con el objetivo de evalu
 
 [^10]: El autor precisa que menos de 0.08 ya puede ser considerado como un ajuste adecuado, y que 0.05 o menos sugiere un buen ajuste del modelo. 
 
+\newpage
+
 **Variables dependientes**
 
 Para evaluar la bondad de ajuste del modelo de medición de las variables dependientes se ha estimado un Análisis Factorial Confirmatorio (AFC) siguiendo el modelo de medida señalado en el apartado "Variables". A continuación es posible visualizar el código de análisis:
@@ -69,8 +71,6 @@ summary(fit2, fit.measures=T, standardized=T)
 | SRMR                    | 0,043             | 0,043             |
 
 Siguiendo los criterios de bondad de ajuste propuestos por Brown (2015), es posible afirmar que según los indicadores relativos al Chi-square Ratio el modelo de medida no presentaría un ajuste adecuado. Sin embargo, como se ha mencionado previamente esta prueba suele verse afectada al trabajar con tamaños muestrales grandes, por lo que se deben analizar también los otros cuatro indicadores de ajuste. Los cuatro indicadores restantes se encuentran dentro de los criterios establecidos por Brown, generando evidencias de un buen ajuste del modelo. Por consiguiente, se ha decidido utilizar este modelo de medida para las variables independientes correspondientes al clima escolar.
-
-\newpage
 
 **_Apertura a la discusión_**
 
